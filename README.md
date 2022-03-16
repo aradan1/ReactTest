@@ -30,7 +30,7 @@ This will run the mySQL server, but we need to create the connection our app wil
 With Apache and MySQL running, press "admin" on the mySQL row in XAMPP's control pannel, this will open a tab with database information in a browser.
 On the left side of the screen we should see a list of existing database connections and the option to make a new one.
 
-(names will be required to be the same in order to find and log into those connections and users from the server automaticaly)
+(names will be required to be the same in order to find and log into those connections and users from the server automaticaly, all this can/must be changed in '/config/config.json' to whatever name, password and db name you want or have)
 1. Press the "new" option on top of the database conections, asign it the name "aradandb", and "utf8mb4_bin" in the drop down menu next to it, then press "create".
 2. Select the newly created database connection "aradandb", this will show it's information and tables (none for now). 
 3. On the options bar on top, go to "Privileges".
