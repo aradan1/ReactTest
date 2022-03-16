@@ -1,0 +1,37 @@
+ROUTES:
+    - User routes:
+GET     /api/users - retorna todos los usuarios
+GET     /api/users/auth - retorna id y nombre del usuario loggeado
+POST    /api/users/signup - Registra un usuario si el nombre elegido no esta repetido
+POST    /api/users/login - logea al usuario
+GET     /api/users/logout - termina la sesion de un usuario
+GET     /api/users/4 - retorna el usuario de indice 4 en la base de datos
+DELETE  /api/users/4 - elimina el usuario de indice 4 de la base de datos
+PUT     /api/users/4/settings - modifica el usuario de indice 4 con la nueva informacion
+
+    - Project routes:
+GET     /api/projects - retorna todos los projectos y nombre de sus dueños
+POST    /api/projects/new - Registra un proyecto nuevo
+GET     /api/projects/4 - retorna el proyecto de indice 4 en la base de datos
+DELETE  /api/projects/4 - elimina el proyecto de indice 4 de la base de datos
+GET     /api/projects/user/4 - retorna todos los proyectos del usuario de indice 4
+
+TODO ROUTES:
+
+
+React:
+· React identifica si el usuario esta loggeado y recuperar el nombre de la cookie
+· Navbar puede hacer login, logout y registrar usuarios
+· Pagina principal
+    Grid con usuarios (ejemplo, cambiar por algo mas serio en el futuro)
+· Pagina de usuario
+    div izquierda: info usuario
+    div derecha: info proyectos y demas contenidos
+· Pagina de proyecto
+    div izquierda: info proyecto
+    div derecha: contenido proyecto
+· Organizar rutas (pagina principal, paginas de usuario, paginas de proyectos, registro y login)
+
+
+Color palet suggestion:
+1: #3BB273 #283044 #FFE9CE #CC5803 #3777FF

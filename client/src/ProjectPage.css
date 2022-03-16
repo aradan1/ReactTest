@@ -1,0 +1,11 @@
+.project-page {
+    display: flex;
+    flex-direction: row;
+}
+
+
+@media screen and (max-width: 960px){
+    .project-page {
+        flex-direction: column;
+    }
+}

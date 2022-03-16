@@ -1,0 +1,41 @@
+.acordion {
+    padding: 1rem;
+}
+
+.acordion-header {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.2rem;
+    background-color: #3777FF;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    width: 100%;
+}
+  
+.acordion-header:hover {
+    background-color: #6bacbd;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+}
+
+.itemLink {
+    color: white;
+    text-decoration: none;
+}
+
+.itemLink:hover {
+    color: gray;
+    text-decoration: none;
+}
+
+.vertical-divider{
+    border-right: 2px solid #4d86ff;
+    margin-right: 1rem;
+    padding-right: 1rem;
+    height: 100%;
+}
+
+.accordion-body{
+    font-size: 1.2rem;
+    padding: 1rem 1rem;
+}

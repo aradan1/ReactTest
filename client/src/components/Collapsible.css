@@ -1,0 +1,21 @@
+.collapsible-content {
+    overflow: hidden;
+    transition: height 0.2s ease-in-out;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #dee2e6 !important;
+}
+
+.collapsible-card {
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+}
+
+.collapsible-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}

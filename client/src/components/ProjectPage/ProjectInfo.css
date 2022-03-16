@@ -1,0 +1,27 @@
+.Sidebar {
+    width: 25%;
+    background-color: rgb(151, 243, 148);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.LinkItem {
+    font-size: 1.2rem;
+    min-height: 200px;
+    color: rgb(7, 47, 126);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 960px){
+    .Sidebar {
+        width: 100%;
+        flex-direction: row;
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,24 @@
+.grid {
+    background-color: #283044;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 2rem;
+  }
+  
+.item {
+    font-size: 1.2rem;
+    min-height: 200px;
+    color: white;
+    background-color: #3777FF;
+    text-decoration: none;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+}
+  
+.item:hover {
+    background-color: #377888;
+    border-radius: 10px;
+    transition: all 0.2s ease-out;
+}
+
